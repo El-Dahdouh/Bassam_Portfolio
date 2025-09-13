@@ -263,3 +263,36 @@ html[dir="rtl"] .project-row img{order:2}
 @media (max-width: 720px){
   .project-row{grid-template-columns:1fr}
 }
+
+/* زرار الهامبورجر */
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .main-nav {
+    display: none;
+    flex-direction: column;
+    gap: 12px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background: linear-gradient(135deg, var(--primary), var(--primary-2));
+    padding: 15px;
+    border-radius: 0 0 12px 12px;
+  }
+
+  .main-nav.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
