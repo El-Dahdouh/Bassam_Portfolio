@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title id="title-contact">Contact | تواصل</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <h1 id="site-title" class="logo">My Portfolio</h1>
+
+      <nav class="main-nav">
+        <a href="index.html" data-key="home" class="nav-link">Home</a>
+        <a href="projects.html" data-key="projects" class="nav-link">Projects</a>
+        <a href="experience.html" data-key="experience" class="nav-link">Experience</a>
+        <a href="contact.html" data-key="contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="language-switch">
+        <button id="en-btn" class="lang-btn">EN</button>
+        <button id="ar-btn" class="lang-btn">AR</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container contact-grid">
+      <!-- 1) نموذج رسالة -->
+      <div class="contact-card fade-up">
+        <h2 id="contact-heading" class="section-title">Send a Message</h2>
+        <form class="contact-form" action="https://formspree.io/f/yourFormID" method="POST">
+          <input type="text" name="name" id="name-input" placeholder="Your Name" required/>
+          <input type="email" name="email" id="email-input" placeholder="Your Email" required/>
+          <textarea name="message" id="message-input" rows="6" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-primary" id="send-btn">Send</button>
+        </form>
+      </div>
+
+
+      <!-- 2) معلومات التواصل -->
+      <div class="contact-card fade-up">
+        <h2 id="contact-info-heading" class="section-title">Contact Info</h2>
+        <div class="info-list">
+          <div class="info-item">
+            <strong data-key="email">Email:</strong>
+            <a id="gmail-link" href="mailto:bassam@bassamawadh.sa">Contact with Email</a>
+          </div>
+          <div class="info-item">
+            <strong data-key="phone">Phone:</strong>
+            <a id="phone-link" href="tel:+966555968140">+966555968140</a>
+          </div>
+          <div class="info-item">
+            <strong data-key="whatsapp">WhatsApp:</strong>
+            <a id="wa-link" href="https://wa.me/+966555968140" target="_blank">Chat on WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+  <div class="container footer-grid">
+    <p id="footer-text">© <span id="year"></span> Bassam Alotaibi </p>
+
+    <!-- Social icons -->
+    <div class="socials">
+      <a class="social-link" href="https://wa.me/+966555968140" target="_blank" aria-label="WhatsApp" title="WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+      <a class="social-link" href="http://linkedin.com/in/bassam-alsulis" target="_blank" aria-label="LinkedIn" title="LinkedIn">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a class="social-link" href="https://github.com/Alsulis" target="_blank" aria-label="GitHub" title="GitHub">
+        <i class="bi bi-github"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="JS/script.js"></script>
+</body>
+</html>

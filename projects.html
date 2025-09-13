@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title id="title-projects">Projects | مشاريعي</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <h1 id="site-title" class="logo">My Portfolio</h1>
+
+      <nav class="main-nav">
+        <a href="index.html" data-key="home" class="nav-link">Home</a>
+        <a href="projects.html" data-key="projects" class="nav-link">Projects</a>
+        <a href="experience.html" data-key="experience" class="nav-link">Experience</a>
+        <a href="contact.html" data-key="contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="language-switch">
+        <button id="en-btn" class="lang-btn">EN</button>
+        <button id="ar-btn" class="lang-btn">AR</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <h2 id="projects-heading" class="section-title">Projects</h2>
+
+      <!-- مشروع 1 -->
+     <article class="project-row fade-up">
+      <img src="images/project.jpeg" alt="Project 1"/>
+      <div class="project-body">
+        <h3 class="project-title" id="project1-title"></h3>
+        <ul class="project-desc" id="project1-points"></ul>
+        <div class="project-actions">
+          <a href="https://github.com/Alsulis/peer-to-peer-federated-learning-AVs"
+            class="btn btn-ghost"
+            id="view-github"></a>
+        </div>
+      </div>
+    </article>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+  <div class="container footer-grid">
+    <p id="footer-text">© <span id="year"></span> Bassam Alotaibi</p>
+
+    <!-- Social icons -->
+    <div class="socials">
+      <a class="social-link" href="https://wa.me/+966555968140" target="_blank" aria-label="WhatsApp" title="WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+      <a class="social-link" href="http://linkedin.com/in/bassam-alsulis" target="_blank" aria-label="LinkedIn" title="LinkedIn">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a class="social-link" href="https://github.com/Alsulis" target="_blank" aria-label="GitHub" title="GitHub">
+        <i class="bi bi-github"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="JS/script.js"></script>
+</body>
+</html>
