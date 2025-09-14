@@ -27,6 +27,47 @@ const translations = {
     "view-github": "GitHub",
 
     "experience-heading": "Experience",
+ // خبرة 1
+    "exp1-title": "Information Security Manager — Experience Company",
+    "exp1-desc1": "I am responsible for developing and delivering a comprehensive cybersecurity strategy aligned with ISO 27001, NIST CSF, and SAMA CSF frameworks, ensuring the protection of client data, financial operations, and digital platforms.",
+    "exp1-role-title": "My role encompasses:",
+    "exp1-role-list": [
+      "Designing and managing the Information Security Management System (ISMS).",
+      "Drafting and implementing security policies and operational procedures.",
+      "Conducting risk assessments and gap analyses to strengthen the security posture.",
+      "Overseeing access control, encryption, and data protection practices.",
+      "Leading incident response and business continuity planning.",
+      "Promoting a culture of security awareness across the organisation.",
+      "Ensuring compliance with Saudi data protection and cybersecurity regulations."
+      ],
+    "exp1-focus": "My focus is to ensure that Experience Company operates securely and compliantly, maintaining the trust of clients and stakeholders while supporting operational resilience and sustainable growth within the financial services sector.",
+    "exp1-date": "July 2025 — Present",
+
+  // خبرة 2
+    "exp2-title": "Founder and Chairman of the Board of Directors",
+    "exp2-desc": "Founding and leading Buniah for AI and Data, a non-profit organisation dedicated to advancing artificial intelligence, data science, and ethical technology in Saudi Arabia. Overseeing strategic planning, board governance, and partnerships to deliver innovative solutions that serve society and drive sustainable growth.",
+    "exp2-date": "June 2025 — Present",
+
+  // خبرة 3
+    "exp3-title": "IT Security Specialist – Hyundai Engineering Co. Ltd.",
+    "exp3-role-list": [
+      "Manage and implement cybersecurity strategies to protect systems and infrastructure from security threats.",
+      "Conduct continuous security risk assessments and provide periodic reports to identify security gaps and offer preventive solutions.",
+      "Implement and maintain 24/7 security monitoring to ensure compliance with standards and regulations.",
+      "Lead initiatives to update and implement security policies related to access management, network security, and applications.",
+      "Coordinate with multidisciplinary teams to ensure cybersecurity measures are integrated into daily operational processes."
+      ],
+    "exp3-date": "February 2025 – July 2025",
+
+    "education-heading":"Education",
+    // التعليم
+    "edu1-title": "Master's in Cybersecurity | Lancaster University | Lancaster, the United Kingdom",
+    "edu1-desc": "• Specialization in security frameworks, threat management, and cloud security.<br>• Thesis on federated learning and threat detection using artificial intelligence.",
+    "edu1-year": "Graduation Year: 2024",
+
+    "edu2-title": "Bachelor's in Computer Science | Shaqra University | Shaqra, Saudi Arabia",
+    "edu2-desc": "• Foundational studies in computing, programming, and network security.",
+    "edu2-year": "Graduation Year: 2020",
     "contact-heading": "Send a Message",
     "send": "Send",
     "contact-info-heading": "Contact Info",
@@ -65,7 +106,47 @@ const translations = {
     "view-github": "جيتهاب",
 
     "experience-heading": "الخبرة",
+     // خبرة 1
+    "exp1-title": "مدير أمن المعلومات — شركة إكسبيريانس",
+    "exp1-desc1": "مسؤول عن تطوير وتنفيذ استراتيجية شاملة للأمن السيبراني متوافقة مع معايير ISO 27001 و NIST CSF و SAMA CSF لضمان حماية بيانات العملاء والعمليات المالية والمنصات الرقمية.",
+    "exp1-role-title": "مهامي تشمل:",
+    "exp1-role-list": [
+      "تصميم وإدارة نظام إدارة أمن المعلومات (ISMS).",
+      "إعداد وتنفيذ السياسات والإجراءات التشغيلية للأمن.",
+      "إجراء تقييمات المخاطر وتحليلات الفجوات لتعزيز الوضع الأمني.",
+      "الإشراف على التحكم في الوصول والتشفير وممارسات حماية البيانات.",
+      "قيادة الاستجابة للحوادث وخطط استمرارية الأعمال.",
+      "تعزيز ثقافة الوعي الأمني داخل المؤسسة.",
+      "ضمان الامتثال للوائح حماية البيانات والأمن السيبراني في المملكة."
+      ],
+    "exp1-focus": "أركز على ضمان عمل شركة إكسبيريانس بأمان وامتثال، مع الحفاظ على ثقة العملاء وأصحاب المصلحة، ودعم المرونة التشغيلية والنمو المستدام في قطاع الخدمات المالية.",
+    "exp1-date": "يوليو 2025 — الآن",
+
+    // خبرة 2
+    "exp2-title": "المؤسس ورئيس مجلس الإدارة",
+    "exp2-desc": "تأسيس وقيادة جمعية بنية للذكاء الاصطناعي والبيانات، وهي منظمة غير ربحية مكرسة لتطوير الذكاء الاصطناعي وعلوم البيانات والتقنية الأخلاقية في المملكة العربية السعودية. الإشراف على التخطيط الاستراتيجي وحوكمة المجلس والشراكات لتقديم حلول مبتكرة تخدم المجتمع وتدعم النمو المستدام.",
+    "exp2-date": "يونيو 2025 — الآن",
+
+    // خبرة 3
+    "exp3-title": "أخصائي أمن المعلومات – شركة هيونداي للهندسة",
+    "exp3-role-list": [
+      "إدارة وتنفيذ استراتيجيات الأمن السيبراني لحماية الأنظمة والبنية التحتية من التهديدات الأمنية.",
+      "إجراء تقييمات مستمرة للمخاطر الأمنية وتقديم تقارير دورية لتحديد الفجوات الأمنية وتقديم الحلول الوقائية.",
+      "تنفيذ وصيانة مراقبة أمنية على مدار الساعة لضمان الامتثال للمعايير واللوائح.",
+      "قيادة المبادرات لتحديث وتنفيذ سياسات الأمن المتعلقة بإدارة الوصول وأمن الشبكات والتطبيقات.",
+      "التنسيق مع الفرق متعددة التخصصات لضمان دمج التدابير الأمنية في العمليات التشغيلية اليومية."
+      ],
+    "exp3-date": "فبراير 2025 – يوليو 2025",
+
     "education-heading":"التعليم",
+    // التعليم
+    "edu1-title": "ماجستير في الأمن السيبراني | جامعة لانكستر | لانكستر، المملكة المتحدة",
+    "edu1-desc": "• تخصص في الأطر الأمنية، إدارة التهديدات، وأمن السحابة.<br>• رسالة ماجستير عن التعلم الموزع والكشف عن التهديدات باستخدام الذكاء الاصطناعي.",
+    "edu1-year": "سنة التخرج: 2024",
+
+    "edu2-title": "بكالوريوس في علوم الحاسب | جامعة شقراء | شقراء، المملكة العربية السعودية",
+    "edu2-desc": "• دراسات أساسية في الحوسبة، البرمجة، وأمن الشبكات.",
+    "edu2-year": "سنة التخرج: 2020",
     "contact-heading": "إرسال رسالة",
     "send": "إرسال",
     "contact-info-heading": "معلومات التواصل",
@@ -88,7 +169,7 @@ const STORAGE_KEY = "siteLang";
 function getInitialLang(){
   const saved = localStorage.getItem(STORAGE_KEY);
   if (saved) return saved;
-  return "ar"; // الافتراضية
+  return "ar"; 
 }
 
 function setLanguage(lang){
@@ -141,7 +222,6 @@ function setLanguage(lang){
   const phoneEl = document.querySelector("[data-key='phone']");
   if (phoneEl && dict.phone) phoneEl.textContent = dict.phone;
 
-  // إذا أردت يمكن إضافة strong للبريد والواتساب بعلامة data-key="email" و "whatsapp"
   const emailStrong = document.querySelector("[data-key='email']");
   if (emailStrong && dict.email) emailStrong.textContent = dict.email;
 
@@ -177,7 +257,7 @@ document.querySelectorAll(".fade-up, .fade-left").forEach(el=> observer.observe(
 (function autoWhatsApp(){
   const wa = document.getElementById("wa-link");
   if (wa && (!wa.getAttribute("href") || wa.getAttribute("href")==="#")){
-    const phone = "201234567890"; // عدّل الرقم
+    const phone = "+966555968140"; 
     wa.setAttribute("href", `https://wa.me/${phone}`);
   }
 })();

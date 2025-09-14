@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title id="title-experience">Experience | خبرتي</title>
+  <title id="title-experience">Experience | الخبرات</title>
   <link rel="stylesheet" href="css/style.css"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
   <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap" rel="stylesheet">
@@ -11,7 +11,7 @@
 <body>
   <header class="site-header">
     <div class="container nav-wrap">
-      <h1 id="site-title" class="logo">Bassam Alotaibi</h1>
+      <h1 id="site-title" data-key="site-title" class="logo">Bassam Alotaibi</h1>
 
       <!-- زر القائمة للموبايل -->
       <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
@@ -34,84 +34,72 @@
 
   <section class="section">
     <div class="container">
-      <h2 id="experience-heading" class="section-title">Experience</h2>
+      <h2 id="experience-heading" data-key="experience-heading" class="section-title">Experience</h2>
 
       <!-- خبرة 1 -->
-      <article class="project-row fade-left">
+      <article class="project-row fade-up">
         <div class="project-body">
-          <h3 class="project-title">Frontend Developer — Company A</h3>
-          <p class="project-desc">
-            Built responsive UI components, improved performance, and collaborated w يتنبتنسيتنسين تنسيلاتنسيتنسين تنسيبتنسيتنستن ith designers on animations.
+          <h3 class="project-title" id="exp1-title" data-key="exp1-title">Information Security Manager — Experience Company</h3>
+          <p id="exp1-desc1" data-key="exp1-desc1">
+            Responsible for developing and delivering a comprehensive cybersecurity strategy aligned with ISO 27001, NIST CSF, and SAMA CSF frameworks.
           </p>
-          <div class="project-actions">
-            <span class="badge">2022 — Present</span>
-          </div>
+          <h4 id="exp1-role-title" data-key="exp1-role-title">My role encompasses:</h4>
+          <ul class="project-desc" id="exp1-role-list" data-key="exp1-role-list">
+            <li>Designing and managing the Information Security Management System (ISMS).</li>
+            <li>Drafting and implementing security policies and procedures.</li>
+            <li>Conducting risk assessments and gap analyses.</li>
+          </ul>
+          <p id="exp1-focus" data-key="exp1-focus">
+            My focus is to ensure secure and compliant operations while maintaining client trust.
+          </p>
+          <p class="date" id="exp1-date" data-key="exp1-date">July 2025 — Present</p>
         </div>
       </article>
 
       <!-- خبرة 2 -->
-      <article class="project-row fade-left">
+      <article class="project-row fade-up">
         <div class="project-body">
-          <h3 class="project-title">Fullstack Developer — Company B</h3>
-          <p class="project-desc">
-            Delivered full-stack features with Node.js and modern front-end frameworks. Wrote clean, tested code.
+          <h3 class="project-title" id="exp2-title" data-key="exp2-title">Founder and Chairman of the Board of Directors</h3>
+          <p id="exp2-desc" data-key="exp2-desc">
+            Founding and leading Buniah for AI and Data, a non-profit organisation dedicated to advancing artificial intelligence and data science.
           </p>
-          <div class="project-actions">
-            <span class="badge">2020 — 2022</span>
-          </div>
+          <p class="date" id="exp2-date" data-key="exp2-date">June 2025 — Present</p>
         </div>
       </article>
 
       <!-- خبرة 3 -->
-      <article class="project-row fade-left">
+      <article class="project-row fade-up">
         <div class="project-body">
-          <h3 class="project-title">Intern — Company C</h3>
-          <p class="project-desc">
-            Contributed to internal tools and dashboards, learned agile practices and version control.
-          </p>
-          <div class="project-actions">
-            <span class="badge">2019 — 2020</span>
-          </div>
+          <h3 class="project-title" id="exp3-title" data-key="exp3-title">IT Security Specialist – Hyundai Engineering Co. Ltd.</h3>
+          <ul class="project-desc" id="exp3-role-list" data-key="exp3-role-list">
+            <li>Manage and implement cybersecurity strategies.</li>
+            <li>Conduct continuous security risk assessments.</li>
+            <li>Maintain 24/7 security monitoring.</li>
+          </ul>
+          <p class="date" id="exp3-date" data-key="exp3-date">February 2025 – July 2025</p>
         </div>
       </article>
     </div>
-
-    <div class="container">
-      <h2 id="education-heading" class="section-title">Education</h2>
-
-      <!-- خبرة 1 -->
-      <article class="project-row fade-left">
-        <div class="project-body">
-          <h3 class="project-title">Frontend Developer — Company A</h3>
-          <p class="project-desc">
-            Built responsive UI components, improved performance, and collaborated w يتنبتنسيتنسين تنسيلاتنسيتنسين تنسيبتنسيتنستن ith designers on animations.
-          </p>
-          <div class="project-actions">
-            <span class="badge">2022 — Present</span>
-          </div>
-        </div>
-      </article>
-
   </section>
 
   <footer class="site-footer">
-  <div class="container footer-grid">
-    <p id="footer-text">© <span id="year"></span> Bassam Alotaibi </p>
+    <div class="container footer-grid">
+      <p id="footer-text" data-key="footer-text">© <span id="year"></span> Bassam Alotaibi</p>
 
-    <!-- Social icons -->
-    <div class="socials">
-      <a class="social-link" href="https://wa.me/+966555968140" target="_blank" aria-label="WhatsApp" title="WhatsApp">
-        <i class="bi bi-whatsapp"></i>
-      </a>
-      <a class="social-link" href="http://linkedin.com/in/bassam-alsulis" target="_blank" aria-label="LinkedIn" title="LinkedIn">
-        <i class="bi bi-linkedin"></i>
-      </a>
-      <a class="social-link" href="https://github.com/Alsulis" target="_blank" aria-label="GitHub" title="GitHub">
-        <i class="bi bi-github"></i>
-      </a>
+      <!-- Social icons -->
+      <div class="socials">
+        <a class="social-link" href="https://wa.me/+966555968140" target="_blank" aria-label="WhatsApp" title="WhatsApp">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a class="social-link" href="http://linkedin.com/in/bassam-alsulis" target="_blank" aria-label="LinkedIn" title="LinkedIn">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a class="social-link" href="https://github.com/Alsulis" target="_blank" aria-label="GitHub" title="GitHub">
+          <i class="bi bi-github"></i>
+        </a>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
   <script src="JS/script.js"></script>
 </body>
