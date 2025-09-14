@@ -37,14 +37,15 @@
       <!-- 1) نموذج رسالة -->
       <div class="contact-card fade-up">
         <h2 id="contact-heading" class="section-title">Send a Message</h2>
-        <form class="contact-form" action="https://formspree.io/f/yourFormID" method="POST">
+        <form class="contact-form" action="https://formsubmit.co/bassamawadh@outlook.com" method="POST">
           <input type="text" name="name" id="name-input" placeholder="Your Name" required/>
           <input type="email" name="email" id="email-input" placeholder="Your Email" required/>
           <textarea name="message" id="message-input" rows="6" placeholder="Your Message" required></textarea>
+          <input type="hidden" name="_subject" value="New Contact Form Submission">
+          <input type="hidden" name="_captcha" value="false">
           <button type="submit" class="btn btn-primary" id="send-btn">Send</button>
         </form>
       </div>
-
 
       <!-- 2) معلومات التواصل -->
       <div class="contact-card fade-up">
@@ -52,7 +53,7 @@
         <div class="info-list">
           <div class="info-item">
             <strong data-key="email">Email:</strong>
-            <a id="gmail-link" href="mailto:bassam@bassamawadh.sa">Contact with Email</a>
+            <a id="gmail-link" href="mailto:bassamawadh@outlook.com">bassamawadh@outlook.com</a>
           </div>
           <div class="info-item">
             <strong data-key="phone">Phone:</strong>
