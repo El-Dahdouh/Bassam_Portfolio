@@ -44,7 +44,7 @@ const translations = {
     "exp1-date": "July 2025 — Present",
 
   // خبرة 2
-    "exp2-title": "Founder and Chairman of the Board of Directors – Buniah for Artificial Intelligence",
+    "exp2-title": "Founder and Chairman of the Board of Directors – Buniah for Artificial Intelligence and Data",
     "exp2-desc": "Founding and leading Buniah for AI and Data, a non-profit organisation dedicated to advancing artificial intelligence, data science, and ethical technology in Saudi Arabia. Overseeing strategic planning, board governance, and partnerships to deliver innovative solutions that serve society and drive sustainable growth.",
     "exp2-date": "June 2025 — Present",
 
@@ -139,7 +139,7 @@ const translations = {
     "exp1-date": "يوليو 2025 — الآن",
 
     // خبرة 2
-    "exp2-title": " المؤسس ورئيس مجلس الإدارة – جمعية بُنية للذكاء الاصطناعي",
+    "exp2-title": " المؤسس ورئيس مجلس الإدارة – جمعية بُنية للذكاء الاصطناعي والبيانات",
     "exp2-desc": "تأسيس وقيادة جمعية بنية للذكاء الاصطناعي والبيانات، وهي منظمة غير ربحية مكرسة لتطوير الذكاء الاصطناعي وعلوم البيانات والتقنية الأخلاقية في المملكة العربية السعودية. الإشراف على التخطيط الاستراتيجي وحوكمة المجلس والشراكات لتقديم حلول مبتكرة تخدم المجتمع وتدعم النمو المستدام.",
     "exp2-date": "يونيو 2025 — الآن",
 
