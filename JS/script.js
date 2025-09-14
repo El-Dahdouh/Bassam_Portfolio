@@ -59,14 +59,30 @@ const translations = {
       ],
     "exp3-date": "February 2025 – July 2025",
 
+    // خبرة 4
+    "exp4-title": "Application Support – Safari Group",
+    "exp4-role-list": [
+      "Provide technical support for enterprise applications, including resolving complex issues to ensure business continuity.",
+      "Lead processes for identifying and analyzing software issues and providing appropriate solutions to ensure operational efficiency.",
+      "Collaborate with development teams to identify and implement necessary security patches and updates in a timely manner.",
+      "Manage and coordinate the implementation of security measures to ensure system compliance with corporate security standards.",
+      "Provide comprehensive reports on system performance and recommendations for improving security and operational efficiency.",
+      ],
+    "exp4-date": "September 2020 – July 2022",
+
     "education-heading":"Education",
     // التعليم
     "edu1-title": "Master's in Cybersecurity | Lancaster University | Lancaster, the United Kingdom",
-    "edu1-desc": "• Specialization in security frameworks, threat management, and cloud security.<br>• Thesis on federated learning and threat detection using artificial intelligence.",
+    "edu1-desc": [
+      "Specialization in security frameworks, threat management, and cloud security.",
+      "Thesis on federated learning and threat detection using artificial intelligence."
+        ],
     "edu1-year": "Graduation Year: 2024",
 
     "edu2-title": "Bachelor's in Computer Science | Shaqra University | Shaqra, Saudi Arabia",
-    "edu2-desc": "• Foundational studies in computing, programming, and network security.",
+    "edu2-desc": [
+    "Foundational studies in computing, programming, and network security."
+      ],    
     "edu2-year": "Graduation Year: 2020",
     "contact-heading": "Send a Message",
     "send": "Send",
@@ -107,7 +123,7 @@ const translations = {
 
     "experience-heading": "الخبرة",
      // خبرة 1
-    "exp1-title": "مدير أمن المعلومات — شركة إكسبيريانس",
+    "exp1-title": "مدير أمن المعلومات — شركة خبرة لتحصيل الديون",
     "exp1-desc1": "مسؤول عن تطوير وتنفيذ استراتيجية شاملة للأمن السيبراني متوافقة مع معايير ISO 27001 و NIST CSF و SAMA CSF لضمان حماية بيانات العملاء والعمليات المالية والمنصات الرقمية.",
     "exp1-role-title": "مهامي تشمل:",
     "exp1-role-list": [
@@ -138,14 +154,30 @@ const translations = {
       ],
     "exp3-date": "فبراير 2025 – يوليو 2025",
 
+    // خبرة 4
+    "exp4-title": "دعم التطبيقات – مجموعة سفاري",
+    "exp4-role-list": [
+      "تقديم الدعم الفني للتطبيقات المؤسسية، بما في ذلك حل المشكلات المعقدة لضمان استمرارية الأعمال.",
+      "قيادة عمليات تحديد وتحليل مشكلات البرمجيات وتقديم الحلول المناسبة لضمان الكفاءة التشغيلية.",
+      "التعاون مع فرق التطوير لتحديد وتنفيذ التحديثات والرقع الأمنية اللازمة في الوقت المناسب.",
+      "إدارة وتنسيق تنفيذ التدابير الأمنية لضمان توافق الأنظمة مع معايير الأمان المؤسسية.",
+      "إعداد تقارير شاملة عن أداء الأنظمة وتقديم التوصيات لتحسين الأمن والكفاءة التشغيلية."
+      ],
+    "exp4-date": "سبتمبر 2020 – يوليو 2022",
+
     "education-heading":"التعليم",
     // التعليم
     "edu1-title": "ماجستير في الأمن السيبراني | جامعة لانكستر | لانكستر، المملكة المتحدة",
-    "edu1-desc": "• تخصص في الأطر الأمنية، إدارة التهديدات، وأمن السحابة.<br>• رسالة ماجستير عن التعلم الموزع والكشف عن التهديدات باستخدام الذكاء الاصطناعي.",
+    "edu1-desc": [
+      "تخصص في الأطر الأمنية، إدارة التهديدات، وأمن السحابة.",
+      "رسالة ماجستير عن التعلم الموزع والكشف عن التهديدات باستخدام الذكاء الاصطناعي."
+        ],
     "edu1-year": "سنة التخرج: 2024",
 
     "edu2-title": "بكالوريوس في علوم الحاسب | جامعة شقراء | شقراء، المملكة العربية السعودية",
-    "edu2-desc": "• دراسات أساسية في الحوسبة، البرمجة، وأمن الشبكات.",
+    "edu2-desc": [
+      "دراسات أساسية في الحوسبة، البرمجة، وأمن الشبكات."
+        ],
     "edu2-year": "سنة التخرج: 2020",
     "contact-heading": "إرسال رسالة",
     "send": "إرسال",
@@ -186,9 +218,13 @@ function setLanguage(lang){
       const val = dict[key].replace
         ? dict[key].replace("{year}", new Date().getFullYear())
         : dict[key];
+
       if (el.tagName === "INPUT" || el.tagName === "TEXTAREA"){
         el.placeholder = val;
-      } else if (!Array.isArray(dict[key])) {  
+      } else if (Array.isArray(dict[key])) {
+        // لو النصوص Array (زي التعليم)
+        el.innerHTML = `<ul>${dict[key].map(item=> `<li>${item}</li>`).join("")}</ul>`;
+      } else {
         el.textContent = val;
       }
     }
